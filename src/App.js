@@ -1,10 +1,10 @@
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable react/jsx-filename-extension */
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const isFunction = () => {
-    console.log('dale');
-  };
   return (
     <div className="App">
       <header className="App-header">
@@ -22,7 +22,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Reactssdssddsasdasdsas
+          Learn React
         </a>
       </header>
     </div>
